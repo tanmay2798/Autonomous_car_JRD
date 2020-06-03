@@ -1,0 +1,37 @@
+# launch in CarlaSimulator2
+SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -windowed -ResX=1280 -ResY=720 -quality-level=Low -opengl
+
+
+source /opt/carla-ros-bridge/melodic/setup.bash
+roslaunch carla_ros_bridge carla_ros_bridge.launch 
+
+
+source /opt/carla-ros-bridge/melodic/setup.bash
+roslaunch carla_ego_vehicle carla_example_ego_vehicle.launch
+
+
+rostopic pub -r 10  /carla/ego_vehicle/vehicle_control_cmd carla_msgs/CarlaEgoVehicleControl '{throttle: 1}'
+
+
+rosmsg info carla_msgs/CarlaEgoVehicleControl
+std_msgs/Header header
+  uint32 seq
+  time stamp
+  string frame_id
+float32 throttle
+float32 steer
+float32 brake
+bool hand_brake
+bool reverse
+int32 gear
+bool manual_gear_shift
+
+rtopic type /carla/ego_vehicle/vehicle_control_cmd
+carla_msgs/CarlaEgoVehicleControl
+
+rosrun image_view image_view image:=/carla/ego_vehicle/camera/rgb/front/image_color
+
+
+
+
+
