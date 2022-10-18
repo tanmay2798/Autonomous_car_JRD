@@ -17,6 +17,9 @@ I have designed a lane keep assist system, initially understanding and working o
 6. Algorithms for improving the control of the car to make it move on curved and discontinuous roads.
 
 7. PID control implementation and parameters tuning for faster corrections.
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=el0VRzcktlQ)
+
+
+https://user-images.githubusercontent.com/36462063/196542938-cef56e0c-2979-41df-940a-0ad17dd29c02.mp4
+
 
 Final presentation - [click here](https://docs.google.com/presentation/d/1D70iyy52JKXWYugCRAvB1wr3chXNPb1twON8NtktRFM/edit?usp=sharing)
