@@ -18,6 +18,7 @@ I have designed a lane keep assist system, initially understanding and working o
 
 7. PID control implementation and parameters tuning for faster corrections.
 
+Final presentation - [click here](https://docs.google.com/presentation/d/1D70iyy52JKXWYugCRAvB1wr3chXNPb1twON8NtktRFM/edit?usp=sharing)
 
 https://user-images.githubusercontent.com/36462063/196542938-cef56e0c-2979-41df-940a-0ad17dd29c02.mp4
 
@@ -28,6 +29,3 @@ https://user-images.githubusercontent.com/36462063/196543153-41b1ac1a-20cf-4d7d-
 
 
 https://user-images.githubusercontent.com/36462063/196543215-9860544e-76d1-4642-8c70-4a5be548b2f7.mp4
-
-
-Final presentation - [click here](https://docs.google.com/presentation/d/1D70iyy52JKXWYugCRAvB1wr3chXNPb1twON8NtktRFM/edit?usp=sharing)
